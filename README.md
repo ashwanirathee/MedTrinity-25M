@@ -1,41 +1,22 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 199a48c6f7b395c7259d4714ea1b1440067cab6a
 # <div align="center"> MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine <div>
 
 <div align="center">
   <a href="https://github.com/UCSC-VLAA/MedTrinity-25M"><img src="https://img.shields.io/static/v1?label=MedTrinity-25M Code&message=Github&color=blue&logo=github-pages"></a>  
-<<<<<<< HEAD
   <a href="https://yunfeixie233.github.io/MedTrinity-25M"><img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=blue&logo=github-pages"></a>  
   <a href="https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M"><img src="https://img.shields.io/static/v1?label=MedTrinity-25M&message=HF&color=yellow"></a>  
   <a href=""><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:MedTrinity-25M&color=red&logo=arxiv"></a>  
-=======
-  <a href="https://www.haqtu.me/Recap-Datacomp-1B"><img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=blue&logo=github-pages"></a>  
-  <a href="https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M"><img src="https://img.shields.io/static/v1?label=MedTrinity-25M&message=HF&color=yellow"></a>  
-  <a href="https://arxiv.org/abs/2406.08478"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:MedTrinity-25M&color=red&logo=arxiv"></a>  
->>>>>>> 199a48c6f7b395c7259d4714ea1b1440067cab6a
 </div>
 
 ---
 
-<<<<<<< HEAD
 > [**MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine**](https://yunfeixie233.github.io/MedTrinity-25M/)<br>
-=======
-> [**MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine**](https://www.haqtu.me/Recap-Datacomp-1B/)<br>
->>>>>>> 199a48c6f7b395c7259d4714ea1b1440067cab6a
 > [Yunfei Xie*](https://yunfeixie233.github.io/), [Ce Zhou*](https://github.com/Skylight-Lark),
 > [Lang Gao*](https://heartyhaven.github.io/), [Juncheng Wu*](https://scholar.google.com/citations?user=RSn2gykAAAAJ&hl=en),
 > [Xianhang Li](https://xhl-video.github.io/xianhangli/), [Hong-Yu Zhou](https://zhouhy.org/),
 > [Sheng Liu](https://shengliu66.github.io/), [Lei Xing](https://profiles.stanford.edu/lei-xing),
 > [James Zou](https://www.james-zou.com/),
-<<<<<<< HEAD
 > [Cihang Xie](https://cihangxie.github.io/),
 > [Yuyin Zhou](https://yuyinzhou.github.io/)
-=======
-> [Yuyin Zhou](https://yuyinzhou.github.io/),
-> [Cihang Xie](https://cihangxie.github.io/)
->>>>>>> 199a48c6f7b395c7259d4714ea1b1440067cab6a
 
 ---
 
