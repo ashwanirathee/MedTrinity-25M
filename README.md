@@ -9,7 +9,7 @@
 
 ---
 
-> [**MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine**](https://www.haqtu.me/Recap-Datacomp-1B/)`<br>`
+> [**MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine**](https://www.haqtu.me/Recap-Datacomp-1B/)<br>
 > [Yunfei Xie*](https://yunfeixie233.github.io/), [Ce Zhou*](https://github.com/Skylight-Lark),
 > [Lang Gao*](https://thefllood.github.io/mudehui.github.io/), [Juncheng Wu*](https://scholar.google.com/citations?user=RSn2gykAAAAJ&hl=en),
 > [Xianhang Li](https://xhl-video.github.io/xianhangli/), [Hong-Yu Zhou](https://zhouhy.org/),
@@ -17,7 +17,6 @@
 > [James Zou](https://www.james-zou.com/),
 > [Yuyin Zhou](https://yuyinzhou.github.io/),
 > [Cihang Xie](https://cihangxie.github.io/)
-> `<br>`UC Santa Cruz, University of Edinburgh, JHU, Adobe, UT Austin `<br>`
 
 ---
 
