@@ -1,4 +1,4 @@
-# `<div align="center">` MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine `<div>`
+# <div align="center"> MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine <div>
 
 <div align="center">
   <a href="https://github.com/UCSC-VLAA/MedTrinity-25M"><img src="https://img.shields.io/static/v1?label=MedTrinity-25M Code&message=Github&color=blue&logo=github-pages"></a>  
