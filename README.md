@@ -55,7 +55,7 @@ Star 🌟us if you think it is helpful!!
 
 ## 🏆 Results
 <p align="center">
-  <img src="images/result.png" width="500">
+  <img src="images/result.png" width="900">
 </p>
 
 ---
