@@ -110,7 +110,7 @@ The following table provides an overview of the available models in our zoo. For
 | LLaVA-Med-pp (VQA-RAD) | [Hugging Face](https://huggingface.co/UCSC-VLAA/LLaVA-Med-pp)  | Pretrained on [LLaVA-Med Data](https://github.com/microsoft/LLaVA-Med?tab=readme-ov-file) and MedTrinity-25M, finetuning on VQA-RAD. |
 | LLaVA-Med-pp (SLAKE) | [Hugging Face](https://huggingface.co/UCSC-VLAA/LLaVA-Med-pp)  | Pretrained on [LLaVA-Med Data](https://github.com/microsoft/LLaVA-Med?tab=readme-ov-file) and MedTrinity-25M, finetuning on SLAKE. |
 | LLaVA-Med-pp (PathVQA) | [Hugging Face](https://huggingface.co/UCSC-VLAA/LLaVA-Med-pp)  | Pretrained on [LLaVA-Med Data](https://github.com/microsoft/LLaVA-Med?tab=readme-ov-file) and MedTrinity-25M, finetuning on PathVQA. |
-| LLaVA-Med-Captioner     |   [Hugging Face](https://huggingface.co/UCSC-VLAA/LLaVA-Med-Captioner)    | Captioner for generating multigranular annotations fine-tuned on [MedTrinity-Instruct-200K (Coming soon)]. |
+| LLaVA-Med-Captioner     |   [Hugging Face](https://huggingface.co/UCSC-VLAA/LLaVA-Med-Captioner)    | Captioner for generating multigranular annotations fine-tuned on [MedTrinity-Instruct-200K (Coming soon)](https://github.com/UCSC-VLAA/MedTrinity-25M). |
 
 ### Train and Eval LLaMA-Med-pp
 First, you should download the base model [LLaVA-Meta-Llama-3-8B-Instruct-FT-S2](https://huggingface.co/MBZUAI/LLaVA-Meta-Llama-3-8B-Instruct-FT-S2) and download the stage1 and stage2 datasets in the [LLaVA-Med](https://github.com/microsoft/LLaVA-Med).
