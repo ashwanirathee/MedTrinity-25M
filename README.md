@@ -4,7 +4,7 @@
   <a href="https://github.com/UCSC-VLAA/MedTrinity-25M"><img src="https://img.shields.io/static/v1?label=MedTrinity-25M Code&message=Github&color=blue&logo=github-pages"></a>  
   <a href="https://yunfeixie233.github.io/MedTrinity-25M"><img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=blue&logo=github-pages"></a>  
   <a href="https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M"><img src="https://img.shields.io/static/v1?label=MedTrinity-25M&message=HF&color=yellow"></a>  
-  <a href=""><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:MedTrinity-25M&color=red&logo=arxiv"></a>  
+  <a href="https://arxiv.org/abs/2408.02900"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:MedTrinity-25M&color=red&logo=arxiv"></a>  
 </div>
 
 ---
@@ -142,7 +142,15 @@ bash ./scripts/med/llava3_med_eval_batch_vqa_rad.sh
 If you find MedTrinity-25M useful for your research and applications, please cite using this BibTeX:
 
 ```bibtex
-(To be updated)
+@misc{xie2024medtrinity25mlargescalemultimodaldataset,
+      title={MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine}, 
+      author={Yunfei Xie and Ce Zhou and Lang Gao and Juncheng Wu and Xianhang Li and Hong-Yu Zhou and Sheng Liu and Lei Xing and James Zou and Cihang Xie and Yuyin Zhou},
+      year={2024},
+      eprint={2408.02900},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2408.02900}, 
+}
 ```
 
 ---
