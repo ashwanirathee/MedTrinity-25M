@@ -75,8 +75,8 @@ git clone https://github.com/UCSC-VLAA/MedTrinity-25M.git
 2. Install Package
 
 ```shell
-conda create -n llava python=3.10 -y
-conda activate llava
+conda create -n llava-med-pp python=3.10 -y
+conda activate llava-med-pp
 pip install --upgrade pip  # enable PEP 660 support
 pip install -e .
 ```
@@ -107,9 +107,9 @@ The following table provides an overview of the available models in our zoo. For
 
 | Model Name                            |                             Hugging Face Link                              | Summary                                                                                                           |
 |---------------------------------------|:--------------------------------------------------------------------------:|-------------------------------------------------------------------------------------------------------------------|
-| LLaVA-Med-pp (VQA-RAD) | [Hugging Face](https://huggingface.co/UCSC-VLAA/LLaVA-Med-pp)  | Pretrained on [LLaVA-Med Data](https://github.com/microsoft/LLaVA-Med?tab=readme-ov-file) and MedTrinity-25M, finetuning on VQA-RAD. |
-| LLaVA-Med-pp (SLAKE) | [Hugging Face](https://huggingface.co/UCSC-VLAA/LLaVA-Med-pp)  | Pretrained on [LLaVA-Med Data](https://github.com/microsoft/LLaVA-Med?tab=readme-ov-file) and MedTrinity-25M, finetuning on SLAKE. |
-| LLaVA-Med-pp (PathVQA) | [Hugging Face](https://huggingface.co/UCSC-VLAA/LLaVA-Med-pp)  | Pretrained on [LLaVA-Med Data](https://github.com/microsoft/LLaVA-Med?tab=readme-ov-file) and MedTrinity-25M, finetuning on PathVQA. |
+| LLaVA-Med-pp (VQA-RAD) | [Hugging Face](https://huggingface.co/UCSC-VLAA/LLaVA-Med-pp)  | Pretrained on [LLaVA-Med Data](https://github.com/microsoft/LLaVA-Med?tab=readme-ov-file) and MedTrinity-25M (specifically the VQA-RAD training set subset), finetuning on VQA-RAD training set. |
+| LLaVA-Med-pp (SLAKE) | [Hugging Face](https://huggingface.co/UCSC-VLAA/LLaVA-Med-pp)  | Pretrained on [LLaVA-Med Data](https://github.com/microsoft/LLaVA-Med?tab=readme-ov-file) and MedTrinity-25M (specifically the SLAKE training set subset), finetuning on SLAKE training set. |
+| LLaVA-Med-pp (PathVQA) | [Hugging Face](https://huggingface.co/UCSC-VLAA/LLaVA-Med-pp)  | Pretrained on [LLaVA-Med Data](https://github.com/microsoft/LLaVA-Med?tab=readme-ov-file) and MedTrinity-25M (specifically the PathVQA training set subset), finetuning on PathVQA training set. |
 | LLaVA-Med-Captioner     |   [Hugging Face](https://huggingface.co/UCSC-VLAA/LLaVA-Med-Captioner)    | Captioner for generating multigranular annotations fine-tuned on [MedTrinity-Instruct-200K (Coming soon)](https://github.com/UCSC-VLAA/MedTrinity-25M). |
 
 ### Train and Eval LLaMA-Med-pp
