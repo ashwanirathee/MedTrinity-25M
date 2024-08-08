@@ -128,7 +128,7 @@ bash ./scripts/med/llava3_med_stage2.sh
 cd MedTrinity-25M
 bash ./scripts/med/llava3_med_finetune.sh
 ```
-3. Eval
+3. Eval  
 First, you need to download corresponding weight from Model-Zoo and change the path in evaluation script.
 Then run:
 ```bash
