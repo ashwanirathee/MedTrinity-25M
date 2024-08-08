@@ -75,8 +75,8 @@ git clone https://github.com/UCSC-VLAA/MedTrinity-25M.git
 2. Install Package
 
 ```shell
-conda create -n llava-med-pp python=3.10 -y
-conda activate llava-med-pp
+conda create -n llava-med++ python=3.10 -y
+conda activate llava-med++
 pip install --upgrade pip  # enable PEP 660 support
 pip install -e .
 ```
@@ -103,17 +103,17 @@ pip install -e .
 
 ### 🤖 Model-Zoo
 
-The following table provides an overview of the available models in our zoo. For each model, you can find links to its Hugging Face page.
+The following table provides an overview of the available models in our zoo. For each model, you can find links to its Hugging Face page or Google drive folder.
 
-| Model Name                            |                             Hugging Face Link                              | Summary                                                                                                           |
+| Model Name                            |                             Link                              | Summary                                                                                                           |
 |---------------------------------------|:--------------------------------------------------------------------------:|-------------------------------------------------------------------------------------------------------------------|
-| LLaVA-Med-pp (VQA-RAD) | [Google Drive](https://drive.google.com/drive/folders/1jY_LPsodnFrDvVRvMIQ9g0RAZKS8Qg0k?usp=drive_link)  | Pretrained on [LLaVA-Med Data](https://github.com/microsoft/LLaVA-Med?tab=readme-ov-file) and MedTrinity-25M (specifically the VQA-RAD training set subset), finetuning on VQA-RAD training set. |
-| LLaVA-Med-pp (SLAKE) | [Google Drive](https://drive.google.com/drive/folders/15pLmRAtJZ4Gtln6zRJZNdvR2Q7TnphVt?usp=drive_link)  | Pretrained on [LLaVA-Med Data](https://github.com/microsoft/LLaVA-Med?tab=readme-ov-file) and MedTrinity-25M (specifically the SLAKE training set subset), finetuning on SLAKE training set. |
-| LLaVA-Med-pp (PathVQA) | [Google Drive](https://drive.google.com/drive/folders/1PoJreastQ5w5IJSyXdFhDbsEeFKlZ3w9?usp=drive_link)  | Pretrained on [LLaVA-Med Data](https://github.com/microsoft/LLaVA-Med?tab=readme-ov-file) and MedTrinity-25M (specifically the PathVQA training set subset), finetuning on PathVQA training set. |
+| LLaVA-Med++ (VQA-RAD) | [Google Drive](https://drive.google.com/drive/folders/1jY_LPsodnFrDvVRvMIQ9g0RAZKS8Qg0k?usp=drive_link)  | Pretrained on [LLaVA-Med Data](https://github.com/microsoft/LLaVA-Med?tab=readme-ov-file) and MedTrinity-25M (specifically the VQA-RAD training set subset), finetuning on VQA-RAD training set. |
+| LLaVA-Med++ (SLAKE) | [Google Drive](https://drive.google.com/drive/folders/15pLmRAtJZ4Gtln6zRJZNdvR2Q7TnphVt?usp=drive_link)  | Pretrained on [LLaVA-Med Data](https://github.com/microsoft/LLaVA-Med?tab=readme-ov-file) and MedTrinity-25M (specifically the SLAKE training set subset), finetuning on SLAKE training set. |
+| LLaVA-Med++ (PathVQA) | [Google Drive](https://drive.google.com/drive/folders/1PoJreastQ5w5IJSyXdFhDbsEeFKlZ3w9?usp=drive_link)  | Pretrained on [LLaVA-Med Data](https://github.com/microsoft/LLaVA-Med?tab=readme-ov-file) and MedTrinity-25M (specifically the PathVQA training set subset), finetuning on PathVQA training set. |
 | LLaVA-Med-Captioner     |   [Hugging Face](https://huggingface.co/UCSC-VLAA/LLaVA-Med-Captioner)    | Captioner for generating multigranular annotations fine-tuned on [MedTrinity-Instruct-200K (Coming soon)](https://github.com/UCSC-VLAA/MedTrinity-25M). |
 
-### Train and Eval LLaMA-Med-pp
-First, you should download the base model [LLaVA-Meta-Llama-3-8B-Instruct-FT-S2](https://huggingface.co/MBZUAI/LLaVA-Meta-Llama-3-8B-Instruct-FT-S2) and download the stage1 and stage2 datasets in the [LLaVA-Med](https://github.com/microsoft/LLaVA-Med).
+### Train and Eval LLaMA-Med++
+First, you need to download the base model [LLaVA-Meta-Llama-3-8B-Instruct-FT-S2](https://huggingface.co/MBZUAI/LLaVA-Meta-Llama-3-8B-Instruct-FT-S2) and download the stage1 and stage2 datasets in the [LLaVA-Med](https://github.com/microsoft/LLaVA-Med).
 1. Pre-train
 ```bash
 # stage1 training
@@ -129,7 +129,8 @@ cd MedTrinity-25M
 bash ./scripts/med/llava3_med_finetune.sh
 ```
 3. Eval
-First, you should download [LLaVA-Med-pp](https://huggingface.co/UCSC-VLAA/LLaVA-Med-pp)
+First, you need to download corresponding weight from Model-Zoo and change the path in evaluation script.
+Then run:
 ```bash
 cd MedTrinity-25M
 bash ./scripts/med/llava3_med_eval_batch_vqa_rad.sh
