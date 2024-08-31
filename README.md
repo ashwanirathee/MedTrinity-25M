@@ -50,6 +50,11 @@ Star 🌟 us if you think it is helpful!!
   <img src="images/dataset.png" width="500">
 </p>
 
+### Statistics of MedTrinity-25M
+You can view detailed statistics of MedTrinity-25M from [this link](https://docs.google.com/spreadsheets/d/1gdVahxKKB31v3K3vBq8sK6UkimzZAT1zM1kxeJKqKq4/edit?usp=sharing). 
+
+**Note:** sometimes a single image contains multiple biological structures. The data only reflect the number of samples in which a specific biological structure is present.
+
 ### Dataset Download
 
  Dataset | 🤗 Huggingface Hub | 
