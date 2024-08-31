@@ -25,9 +25,10 @@
 ---
 
 ## 📢 Breaking News
-- [🔥August 7, 2024.] 💥 Our arxiv paper is released.
-- [🔥July 21, 2024.] 💥 Full dataset released.
-- [🔥June 16, 2024.] 💥 Demo dataset released.
+- **[🆕💥 September 1, 2023] Detailed tutorial for deploying MedTrinity now available at [HuggingFace](https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M#dataset-download-and-preparation). We apologize for any previous inconvenience.**
+- [📄💥 August 7, 2023] Our arXiv paper is released.
+- [💾 July 21, 2023] Full dataset released.
+- [💾 June 16, 2023] Demo dataset released.
 
 Star 🌟 us if you think it is helpful!!
 
