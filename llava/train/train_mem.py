@@ -9,10 +9,10 @@ if __name__ == "__main__":
     # 获取train函数的模块
     module = inspect.getmodule(train)
 
-    # 打印模块的文件路径
-    print(f"train 函数导入自: {module.__file__}")    
-    print(os.getenv("CONDA_DEFAULT_ENV"))
-    print(os.getenv("PYTHONPATH"))
+    # # 打印模块的文件路径
+    # print(f"train 函数导入自: {module.__file__}")    
+    # print(os.getenv("CONDA_DEFAULT_ENV"))
+    # print(os.getenv("PYTHONPATH"))
     try:
         train()
     except Exception as e:
