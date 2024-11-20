@@ -1,14 +1,15 @@
 #!/bin/bash
 
-model_name_or_path=./checkpoints/llava-llama-med-8b-stage2-finetune-pathvqa_orift
-checkpoint=./checkpoints/llava-llama-med-8b-stage2-finetune-pathvqa_orift_mimic_hddd
+model_name_or_path=/data3/yxie/LLaVA-Med/checkpoints/llava_med_in_text_60k_ckpt2
+checkpoint=./checkpoints/llava_med_ori_mimic_noourc
+
 
 torchrun --nnodes=1 --nproc_per_node=8 --master_port=25001 llava/train/train_mem.py \
     --deepspeed ./scripts/zero3.json \
     --model_name_or_path $model_name_or_path \
-    --version llama3 \
-    --data_path /data3/yxie/mimic_cxr_finetuning/metadata.jsonl \
-    --image_folder /data3/yxie/mimic_cxr_finetuning \
+    --version llama2 \
+    --data_path /data3/yxie/mimic_cxr_test_ind/metadata.jsonl \
+    --image_folder /data3/yxie/mimic_cxr_test_ind \
     --vision_tower openai/clip-vit-large-patch14-336 \
     --gradient_checkpointing True \
     --mm_projector_type mlp2x_gelu \
@@ -19,7 +20,7 @@ torchrun --nnodes=1 --nproc_per_node=8 --master_port=25001 llava/train/train_mem
     --group_by_modality_length True \
     --bf16 True \
     --output_dir $checkpoint \
-    --num_train_epochs 5 \
+    --num_train_epochs 1 \
     --per_device_train_batch_size 4 \
     --per_device_eval_batch_size 4 \
     --gradient_accumulation_steps 8 \

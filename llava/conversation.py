@@ -436,7 +436,8 @@ conv_llama3 = Conversation(
     sep="<|eot_id|>",
 )
 
-default_conversation = conv_llama3
+# default_conversation = conv_llama3
+default_conversation = conv_llama_2
 conv_templates = {
     "default": conv_vicuna_v0,
     "v0": conv_vicuna_v0,
