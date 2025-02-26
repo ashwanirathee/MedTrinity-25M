@@ -12,7 +12,7 @@
 
 > [**MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine**](https://yunfeixie233.github.io/MedTrinity-25M/)<br>
 > [Yunfei Xie*](https://yunfeixie233.github.io/), [Ce Zhou*](https://github.com/Skylight-Lark),
-> [Lang Gao*](https://heartyhaven.github.io/), [Juncheng Wu*](https://scholar.google.com/citations?user=RSn2gykAAAAJ&hl=en),
+> [Lang Gao*](https://heartyhaven.github.io/), [Juncheng Wu*](https://chtholly17.github.io/),
 > [Xianhang Li](https://xhl-video.github.io/xianhangli/), [Hong-Yu Zhou](https://zhouhy.org/),
 > [Sheng Liu](https://shengliu66.github.io/), [Lei Xing](https://profiles.stanford.edu/lei-xing),
 > [James Zou](https://www.james-zou.com/),
