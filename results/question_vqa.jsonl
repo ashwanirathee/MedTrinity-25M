@@ -1,0 +1,16 @@
+[{
+    "id": "001",
+    "image": "xray.jpg",
+    "conversations": [
+      { "from": "human", "value": "<image>\nWhat body part is shown in the image?" }
+    ]
+  },
+  {
+    "id": "002",
+    "image": "xray.jpg",
+    "conversations": [
+      { "from": "human", "value": "<image>\nIs there evidence of a tumor?" }
+    ]
+  }
+  ]
+  
